@@ -227,6 +227,18 @@ body {
   border-color: var(--primary) !important;
 }
 
+.theme-dark .terminal-view,
+.theme-dark .terminal-container,
+.theme-dark .xterm,
+.theme-dark .xterm-viewport,
+.theme-dark .xterm-screen,
+.theme-dark .xterm-rows {
+  font-family: var(--font-monospace-theme) !important;
+  font-size: 14px !important;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke: 0.2px currentColor;
+}
+
 .theme-dark {
   --font-scale-00: 0.750rem;
   --font-scale-0: 0.875rem;
