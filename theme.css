@@ -214,7 +214,16 @@ body {
   --font-interface-theme: "PingFang SC", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-text-theme: "PingFang SC", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-monospace-theme: "JetBrains Mono", "PingFang SC", monospace;
-  --font-text-size: 16px;
+  --file-line-width: clamp(700px, 75%, 1200px);
+
+  --font-ui-smaller: 14px;
+  --font-ui-small: 15px;
+  --font-ui-medium: 17px;
+  --font-ui-large: 22px;
+  --font-smallest: 0.85em;
+  --font-smaller: 0.9em;
+  --font-small: 0.95em;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
@@ -239,43 +248,7 @@ body {
   -webkit-text-stroke: 0.2px currentColor;
 }
 
-.theme-dark {
-  --font-scale-00: 0.750rem;
-  --font-scale-0: 0.875rem;
-  --font-scale-1: 1rem;
-  --font-scale-2: 1.125rem;
-}
 
-.theme-dark .nav-file-title,
-.theme-dark .nav-folder-title {
-  font-size: var(--font-scale-0);
-}
-
-.theme-dark .menu,
-.theme-dark .menu-item {
-  font-size: var(--font-scale-0);
-}
-
-.theme-dark .suggestion-item,
-.theme-dark .prompt-input {
-  font-size: var(--font-scale-1);
-}
-
-.theme-dark .setting-item-name {
-  font-size: var(--font-scale-0);
-}
-
-.theme-dark .setting-item-description {
-  font-size: var(--font-scale-00);
-}
-
-.theme-dark .workspace-tab-header-inner-title {
-  font-size: var(--font-scale-0);
-}
-
-.theme-dark .view-header-title {
-  font-size: var(--font-scale-1);
-}
 
 .theme-dark .cm-content,
 .theme-dark .markdown-preview-view {
