@@ -55,7 +55,7 @@ A dark theme for [Obsidian](https://obsidian.md) inspired by the [OpenCode](http
 ## Credits
 
 - Inspired by [OpenCode](https://github.com/sst/opencode) terminal
-- Color scheme based on [OhMyOpenCode](https://github.com/code-yeongyu/oh-my-opencode)
+- Color scheme based on [OpenCode](https://github.com/sst/opencode) terminal palette
 - Font rendering optimized for [Ghostty](https://ghostty.org) terminal
 
 ## License
