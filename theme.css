@@ -214,7 +214,7 @@ body {
   --font-interface-theme: "PingFang SC", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-text-theme: "PingFang SC", -apple-system, BlinkMacSystemFont, sans-serif;
   --font-monospace-theme: "JetBrains Mono", "PingFang SC", monospace;
-  --file-line-width: clamp(700px, 75%, 1200px);
+  --file-line-width: 85vw;
 
   --font-ui-smaller: 14px;
   --font-ui-small: 15px;
